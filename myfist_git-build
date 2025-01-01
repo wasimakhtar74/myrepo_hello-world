@@ -5,25 +5,25 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Hello test'
-                sleep 60
+                sleep 30
             }
         }
                 stage('build') {
             steps {
                 echo 'Hello build'
-                sleep 60
+                sleep 30
             }
         }
                 stage('preprod') {
             steps {
                 echo 'Hello preprod'
-                sleep 60
+                sleep 30
             }
         }
                 stage('prod') {
             steps {
                 echo 'Hello prod'
-                sleep 60
+                sleep 30
             }
         }
     }
