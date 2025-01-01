@@ -26,5 +26,11 @@ pipeline {
                 sleep 30
             }
         }
+                 stage('prod-test') {
+            steps {
+                echo 'Hello prod-test'
+                sleep 60
+            }
+        }
     }
 }
